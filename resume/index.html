@@ -19,11 +19,22 @@
     <section>
         <h1>Dylan Vo</h1>
         <h3>Data Science Major (Fourth Year Standing)</h3>
-        <p>
-        +1 (818) 296-8162<br>
-        <a href="mailto:dvo.dylan.vo@gmail.com">dvo.dylan.vo@gmail.com</a><br>
-        22031 Sagebrook Rd, Chatsworth, CA, 91311
-        </p>
+        <div class = 'resume_contact'>
+            <label>
+                <span>Mobile:</span>
+                <span>+1 (818) 296-8162</span>
+            </label>
+            
+            <label>
+                <span>Email:</span>
+                <a href="mailto:dvo.dylan.vo@gmail.com">dvo.dylan.vo@gmail.com</a>
+            </label>
+            
+            <label>
+                <span>Address:</span>
+                <span>22031 Sagebrook Rd, Chatsworth, CA, 91311</span>
+            </label>
+        </div>
     </section>
 
     <section>
@@ -35,7 +46,7 @@
         <h2>Education</h2>
         <h4>Bachelor of Data Science</h4>
         <ul>
-            <li>Expected Gradutaion: June 2026</li>
+            <li>Expected Graduation: June 2026</li>
             <li>University of California, San Diego
                 <ul>
                     <li>GPA: 3.77</li>
@@ -72,25 +83,29 @@
 
     <section>
         <h2>Relevant Projects</h2>
-        <h4>N-Gram Language Model</h4>
-            <ul>
-                <li>Created a program to tokenize a training string for a language model, with capability to access a large variety of books through Project Gutenberg’s API</li>
-                <li>Created a language model for token groupings of N sizes</li>
-                <li>Python model is able to generate text using conditional probability and determine the probability of an input originating from the training corpus</li>
-            </ul>
-        <h4>Bank Database Exploration</h4>
-            <ul>
-                <li>Cleaned and combined multiple files of bank information</li>
-                <li>Calculated dispoable income, taxable income, and loan repayment rate</li>
-                <li>Calculated and visualized various feature correlations, missingness dependency, and hypothesis tests using plotly</li>
-            </ul>
-        <h4>Food Healthiness Exploration</h4>
-            <ul>
-                <li>Scraped and cleaned data from food.com</li>
-                <li>Performed various analyses on the data: calculating recipe healthiness, testing missingness dependency, and testing recipe healthiness against its date</li>
-                <li>Created two regression models to predict recipe healthiness, trained and fitted on the dataset, with tuned hyperparameters to maximize accuracy</li>
-                <li>Created a report on the process and results, found <a href = "https://dylan-vo05.github.io/Food.com-Dataset-Exploration/">Here</a></li>
-            </ul>
+        <div class="resume_projects">
+            <article>
+                <h4>N-Gram Language Model</h4>
+                    <ul>
+                        <li>Created a program to tokenize a training string for a language model, with capability to access a large variety of books through Project Gutenberg’s API</li>
+                        <li>Created a language model for token groupings of N sizes</li>
+                        <li>Python model is able to generate text using conditional probability and determine the probability of an input originating from the training corpus</li>
+                    </ul>
+                <h4>Bank Database Exploration</h4>
+                    <ul>
+                        <li>Cleaned and combined multiple files of bank information</li>
+                        <li>Calculated dispoable income, taxable income, and loan repayment rate</li>
+                        <li>Calculated and visualized various feature correlations, missingness dependency, and hypothesis tests using plotly</li>
+                    </ul>
+                <h4>Food Healthiness Exploration</h4>
+                    <ul>
+                        <li>Scraped and cleaned data from food.com</li>
+                        <li>Performed various analyses on the data: calculating recipe healthiness, testing missingness dependency, and testing recipe healthiness against its date</li>
+                        <li>Created two regression models to predict recipe healthiness, trained and fitted on the dataset, with tuned hyperparameters to maximize accuracy</li>
+                        <li>Created a report on the process and results, found <a href = "https://dylan-vo05.github.io/Food.com-Dataset-Exploration/">Here</a></li>
+                    </ul>
+            </article>
+        </div>
     </section>
 
 </body>
