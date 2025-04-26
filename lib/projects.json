@@ -1,61 +1,73 @@
 [
 	{
-		"title": "Lorem ipsum dolor sit.",
+		"title": "Food Healthiness Exploration",
+        "year": "2025",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+		"description": "Scraped and cleaned data from food.com. Performed various analyses on the data: calculating recipe healthiness, testing missingness dependency, and testing recipe healthiness against its date. Created two regression models to predict recipe healthiness, trained and fitted on the dataset, with tuned hyperparameters to maximize accuracy. Created a report on the process and results, found at https://dylan-vo05.github.io/Food.com-Dataset-Exploration/"
 	},
 	{
-		"title": "Architecto minima sed omnis?",
+		"title": "Bank Database Exploration",
+        "year": "2025",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Est, reiciendis aspernatur debitis maxime et itaque animi sit quod quo, tempore incidunt tempora dignissimos exercitationem enim numquam quam quaerat optio laborum ut unde hic delectus laboriosam? Quasi, cupiditate corporis."
+		"description": "Cleaned and combined multiple files of bank information. Calculated dispoable income, taxable income, and loan repayment rate.Calculated and visualized various feature correlations, missingness dependency, and hypothesis tests using plotly"
 	},
 	{
-		"title": "Asperiores rem repellendus doloremque.",
+		"title": "N-Gram Language Model",
+        "year": "2025",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Eligendi tenetur quae quos recusandae est. Cumque, voluptatem. Quo nihil dignissimos molestiae explicabo praesentium aspernatur debitis, illo rerum possimus quam ducimus earum nulla officiis maiores itaque repellat corporis soluta labore?"
+		"description": "Created a program to tokenize a training string for a language model, with capability to access a large variety of books through Project Gutenberg’s API. Created a language model for token groupings of N sizes. Python model is able to generate text using conditional probability and determine the probability of an input originating from the training corpus"
 	},
 	{
-		"title": "Laudantium reprehenderit placeat perspiciatis.",
+		"title": "Color Identifier",
+        "year": "2021",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Quo minus perferendis nulla corrupti repellat dolorem dolore assumenda sit minima ducimus quidem ullam, id ipsa dicta tempora laborum officiis unde possimus cumque nobis alias inventore! Ullam repudiandae iusto nam."
+		"description": "Constructed a handheld color identifier using a Raspberry Pi, color sensor, and other parts. Able to identify 10 unique colors, tested on a wide range of swatches. Personally coded and built."
 	},
 	{
-		"title": "Consequuntur autem eos facere.",
+		"title": "Store Visualization",
+        "year": "2025",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Laborum alias ea unde harum aspernatur? Molestiae, veritatis, possimus, numquam ex excepturi quod ducimus sit odit optio quibusdam sequi aliquid itaque tempore perspiciatis placeat expedita vero voluptates. Sit, aspernatur sint!"
+		"description": "Created a data visualization based on a dataset of food and healtiness data. Displayed how different supermarkets sold foods with different healthiness."
 	},
 	{
-		"title": "Quos sint quaerat omnis?",
+		"title": "San Diego Bus Visualizer",
+        "year":"2024",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Est neque, velit nam rerum error odio voluptates voluptatem magnam laboriosam ad? Doloribus, id et itaque unde porro totam ullam quaerat blanditiis odit animi eveniet aut, voluptate velit iure odio."
+		"description": "Cleaned and processed several databases of public transit data. Created an algorithm to find the shortest path between any bus stops, visualized on a map of the county. Simulated and graphed wait times for passengers."
 	},
 	{
-		"title": "Iste ipsam magni fuga!",
+		"title": "Movie Success Predictor",
+        "year":"2023",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Velit omnis suscipit nemo quia? Iste maiores numquam labore quia nemo eveniet odit, modi magnam? Architecto officia sint est. Architecto iste minima consequuntur explicabo illo error sed at dolore nostrum!"
 	},
 	{
-		"title": "Ipsum, aperiam magni? Nobis.",
+		"title": "Music Study",
+        "year":"2022",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Delectus magni, vel, quod mollitia hic rem temporibus, sint doloribus tenetur qui dolores tempore quisquam fuga nobis recusandae molestiae ipsum nostrum maxime eaque dicta aperiam eum quas beatae. At, neque."
 	},
 	{
-		"title": "Dicta nihil odit illo?",
+		"title": "AI Case Study",
+        "year": "2025"
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Vitae quos laudantium officiis rerum, accusamus delectus aspernatur quas nulla, magni sed, excepturi saepe incidunt laboriosam alias at aliquam atque quisquam autem nesciunt. Minus, reprehenderit odit nam illo natus aspernatur?"
 	},
 	{
-		"title": "Vel earum nulla facilis.",
+		"title":"Incredibly cool project",
+        "year": "2020"
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Aut voluptatem sint atque corrupti accusamus necessitatibus possimus et, itaque nulla id deleniti nemo repellendus asperiores molestias laudantium, mollitia ad dicta. Laboriosam, itaque. Quos corporis, perferendis natus officiis beatae qui."
 	},
 	{
-		"title": "Nobis iste neque quaerat.",
+		"title": "ASCII RPG Game",
+        "year":"2021",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Quos, recusandae, sit rerum velit nostrum nihil quisquam tempora repellat sed quibusdam facilis. Assumenda quaerat ab, nesciunt odio facere sit, ipsa necessitatibus tempora, maiores commodi sed quae provident deserunt at?"
 	},
 	{
-		"title": "Iusto, incidunt. Totam, illum.",
+		"title": "Seasonal Choose-Your-Own-Adventure Game",
+        "year":"2022",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "Tempore, eveniet minus velit, earum aperiam necessitatibus repellendus provident accusamus illum officiis doloribus, eum saepe est aut numquam distinctio pariatur natus totam repellat. Numquam nulla libero sapiente magnam nostrum ex."
 	}
