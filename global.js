@@ -14,7 +14,7 @@ let pages = [
     { url: 'contact/', title: 'Contact'},
     { url: 'resume/', title: 'Resume'},
     { url: 'https://github.com/Dylan-Vo05/', title: 'Github'}
-  ];
+];
 
 let nav = document.createElement('nav');
 document.body.prepend(nav);
@@ -36,7 +36,7 @@ for (let p of pages) {
         a.target = '_blank';
     }
     nav.append(a);
-  }
+}
 
 
 document.body.insertAdjacentHTML(
@@ -50,7 +50,7 @@ document.body.insertAdjacentHTML(
                 <option value = 'dark'>Dark</option>
             </select>
         </label>`,
-    );
+);
 
 let select = document.querySelector('select')
 
@@ -63,4 +63,18 @@ select.addEventListener('input', function (event) {
     console.log('color scheme changed to', event.target.value);
     document.documentElement.style.setProperty('color-scheme', event.target.value);
     localStorage.colorScheme = event.target.value;
-  });
+});
+
+export async function fetchJSON(url) {
+    try {
+      // Fetch the JSON file from the given URL
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch projects: ${response.statusText}`);
+      }
+      const data = await response.json();
+        return data;
+    } catch (error) {
+      console.error('Error fetching or parsing JSON data:', error);
+    }
+}
