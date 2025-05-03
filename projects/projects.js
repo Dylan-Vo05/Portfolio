@@ -1,6 +1,8 @@
 import { fetchJSON, renderProjects } from '../global.js';
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 
+document.addEventListener('DOMContentLoaded', async () => {
+
 const projects = await fetchJSON('../lib/projects.json');
 const projectsContainer = document.querySelector('.projects');
 const titleElement = document.querySelector('.projects-title');
@@ -107,4 +109,5 @@ searchInput.addEventListener('change', (event) => {
   // Re-render the filtered projects and pie chart
   renderProjects(filteredProjects, projectsContainer, 'h2');
   renderPieChart(filteredProjects); // re-render pie chart based on filtered projects
+});
 });
