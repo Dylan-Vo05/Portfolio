@@ -9,7 +9,7 @@
 		"title": "Bank Database Exploration",
         "year": "2025",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Cleaned and combined multiple files of bank information. Calculated dispoable income, taxable income, and loan repayment rate.Calculated and visualized various feature correlations, missingness dependency, and hypothesis tests using plotly"
+		"description": "Cleaned and combined multiple files of bank information. Calculated dispoable income, taxable income, and loan repayment rate. Calculated and visualized various feature correlations, missingness dependency, and hypothesis tests using plotly."
 	},
 	{
 		"title": "N-Gram Language Model",

@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link href="../style.css" rel="stylesheet">
-    <script type="module" src="../global.js"></script>
+    <script src = "https://d3js.org/d3.v4.min.js"></script>
 </head>
 
 <body>
     <h1 class="projects-title">Projects</h1>
-    <div class="projects"></div>
+
+    <div class="pie-container">
+        <svg viewBox="-50 -50 100 100" class="projects-pie-plot">
+          <!-- ... -->
+        </svg>
+        <ul class="legend">
+          <!-- ... -->
+        </ul>
+      </div>
+    <input
+        class="searchBar"
+        type="search"
+        aria-label="Search projects"
+        placeholder="🔍 Search projects…"
+    />
+    
+    <div class="projects"></div>    
     
     <script src="../global.js" type="module"></script>
     <script src="projects.js" type="module"></script>

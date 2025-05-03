@@ -129,3 +129,56 @@ div.profile-stats dl {
     grid-row: 2; 
     margin: 0.25rem;
   }
+
+div.pie-container {
+  display: flex;
+  align-items: flex-start; 
+  gap: 2em;                
+  flex-wrap: wrap;         
+  margin: 2em 0;  
+}
+
+svg.projects-pie-plot {
+  width: 300px;
+  height: 300px;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+svg.projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+span.swatch {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  background-color: var(--color); /* fallback color; overridden inline via JS */
+}
+
+ul.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 0.5em 1em;
+  padding: 1em;
+  margin: 1.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex-grow: 1;
+  list-style: none;
+}
+
+li.legend_items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
