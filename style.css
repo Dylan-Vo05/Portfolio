@@ -182,3 +182,33 @@ li.legend_items {
   gap: 5px;
   width: 100%;
 }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns, one for each stat */
+  gap: 1rem;
+  text-align: center;
+  margin-top: 1rem; 
+  margin-right: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.stats dt,
+.stats dd {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.stats dt {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.stats dd {
+  font-size: 1.25rem;
+}
+
+.gridlines {
+  opacity: 0.2;
+}
