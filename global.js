@@ -37,6 +37,7 @@ for (let p of pages) {
         a.target = '_blank';
     }
     nav.append(a);
+    console.log(p+' added');
 }
 
 
