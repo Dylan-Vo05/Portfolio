@@ -12,8 +12,14 @@
     <p>This page contains metadata about this website.</p>
     <div id="stats"></div>
 
-    <h2>Commits by time of day</h2>
-    <div id="chart"></div>
+    <div id="scrolly-1" class="scrolly-container">
+        <div class="text">
+            <div id="scatter-story"></div>
+        </div>
+        
+        <div class="graphic" id="chart"></div>
+    </div>
+    
 
     <dl id="commit-tooltip" class="info tooltip" hidden>
         <dt>Commit</dt>
@@ -31,7 +37,32 @@
 
     <dl id="language-breakdown" class="stats"></dl>
 
+    <div style="display: flex; align-items: baseline; justify-content: space-between;">
+        <label for="commit-progress" style="white-space: nowrap;">Show commits until:</label>
+        <time id="commit-time" style="margin-left: 1rem;"></time>
+    </div>
+    <input
+        type="range"
+        id="commit-progress"
+        min="0"
+        max="100"
+        value="100"
+        style="width: 100%; margin-top: 0.5rem;"
+    >
+
+    <dl id="files">
+        <!-- we want the following structure for each file:
+        <div>
+            <dt>
+            <code>{file.name}</code>
+            </dt>
+            <dd>{file.lines.length} lines</dd>
+        </div>
+        -->
+    </dl>
+
     <script src="../global.js" type="module"></script>
     <script src="main.js" type="module"></script>
+    <script src="https://unpkg.com/scrollama"></script>
 </body>
 </html>
